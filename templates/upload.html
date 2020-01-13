@@ -3,26 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UPC Fixr</title>
-    <link rel="shortcut icon" href="static/imgs/barcode.png" />
+    <title>Flask Template</title>
+    <link rel="shortcut icon" href="static/imgs/logo32.png" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/main.css">
   </head>
   <body>
     <section>
       <div id="brand">
-        <img id="logo" src="/static/imgs/barcode.png" alt="upc-fixr-logo">
-        <h1>UPC Fixr</h1>
+        <img id="logo" src="/static/imgs/logo128.png" alt="upc-fixr-logo">
+        <h1>Upload Template</h1>
       </div>
 
       <form action="/results" method="POST" enctype="multipart/form-data">
-        <label>Manufacturer ID:<label>
-        <input type="text" placeholder='Enter Manufacturer ID' name="manid" />
-        <label>Brand ID:<label>
-        <input type="text" placeholder='Enter Brand ID' name="brandid" />
+        <label>Input One:<label>
+        <input type="text" placeholder='Enter Input One' name="input_one" />
+        <label>Input Two:<label>
+        <input type="text" placeholder='Enter Input Two' name="input_two" />
         <label>Upload Excel File:<label>
         <input type="file" accept=".xlsx" value='' name="file" />
-        <input value="Shazam!" type="submit" />
+        <input value="Submit" type="submit" />
       </form>
     </section>
 

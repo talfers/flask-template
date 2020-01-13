@@ -56,7 +56,7 @@ input[type=submit] {
   border-radius: 4px;
   padding: 8px 12px;
   cursor: pointer;
-  background: #e6004c;
+  background: MediumSeaGreen;
   color: #fff;
   margin-top: 16px;
   font-weight: bold;
@@ -65,7 +65,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background: #ff3377;
+  background: #31925c;
   color: white;
 }
 
