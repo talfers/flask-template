@@ -23,8 +23,8 @@ def send_csv():
         else:
             target = os.path.join(APP_ROOT, 'static/uploads')
             file = request.files['file']
-            manid = request.form['input_one']
-            brandid = request.form['input_two']
+            input_one = request.form['input_one']
+            input_two = request.form['input_two']
             filename = file.filename
             destination = "/".join([target, filename])
             file.save(destination)
